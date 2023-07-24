@@ -1,6 +1,4 @@
-# TSDX React User Guide
-
-Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
+# DO-Product-Card
 
 > Este es un paquete de pruebas de despliegue en NPM
 

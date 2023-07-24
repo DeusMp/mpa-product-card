@@ -12,13 +12,14 @@ export interface Props {
 
 
 export const ProductTitle = ({ title, className, style }: Props) => {
+
     const { product } = useContext(ProductContext);
-    const titleToShoww = title ? title : product.title
 
     return (
         <span className={`${styles.productDescription} ${className}`}
-              style={ style }
-        >{titleToShoww}</span>
+            style={style}
+        >
+            {title ? title : product.title}</span>
     )
 }
 
